@@ -1,0 +1,32 @@
+@import './mixin.scss';
+@import './reset.scss';
+@import './reset_element.scss';
+@import url('//at.alicdn.com/t/font_641452_q3ah7ae4qvndn29.css');
+
+
+#app, .wrapper, body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    padding: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.handle-box{
+    margin-bottom: 15px;
+    .handle-input {
+      width: 300px;
+      margin-right: 10px;
+      display: inline-block;
+    }
+  }

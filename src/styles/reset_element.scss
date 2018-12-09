@@ -1,0 +1,16 @@
+.el-header{
+    background:#24292e !important;
+    line-height: 60px;
+    color: #333;
+}
+
+.el-input__inner:focus{
+    @include focus(#409EFF)
+}
+
+.el-submenu__title,.el-menu-item{
+    color: #7d90a0;
+    i.iconfont{
+        margin-right: 5px;
+    }
+}
